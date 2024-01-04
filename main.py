@@ -20,6 +20,11 @@ def read_excel(file_path):
 def display_data(data):
     print(data)
 
+#main function
+def main():
+    file_path = "Description.xlsx"
+    data = read_excel(file_path)
+    display_data(data)
 
 
 
