@@ -1,0 +1,5 @@
+Use openai api to expand one-liner description to 55 words, in two sentences
+    - Read excel file
+    - Make a request to openai
+    - save response in excel
+    - Do this for 800 one liner descriptions in the excel spreadsheet
