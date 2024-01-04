@@ -4,6 +4,13 @@
     - Make a request to openai
     - save response in excel
 """
+from openai import OpenAI
+import os.path
+import requests
+
+
+
+
 
 
 
