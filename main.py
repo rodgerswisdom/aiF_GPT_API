@@ -16,6 +16,10 @@ def read_excel(file_path):
     df = pd.read_excel(file_path)
     return df
 
+#function to display excel data
+def display_data(data):
+    print(data)
+
 
 
 
