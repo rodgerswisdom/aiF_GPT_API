@@ -7,7 +7,8 @@
 from openai import OpenAI
 import os.path
 import requests
-
+import pandas as pd
+from api_keys import API_KEY
 
 
 
