@@ -24,10 +24,11 @@ def display_data(data):
 def main():
     file_path = "Description.xlsx"
     data = read_excel(file_path)
-    read_excel(file_path)
     print("Data read from excel")
-    print(data)
     display_data(data)
+
+if __name__ == "__main__":
+    main()
 
 
 
