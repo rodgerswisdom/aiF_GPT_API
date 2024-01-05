@@ -1,3 +1,5 @@
+#this code has no meaning but rather refernce. it shall be deleted afterwards
+
 import pandas as pd
 from openai import OpenAI
 from api_keys import API_KEY  # Make sure to replace this with your actual API key
