@@ -1,11 +1,10 @@
 
 from openai import OpenAI
-from api_keys import API_KEY
+#from api_keys import API_KEY
 import pandas as pd
 
 
-
-client = OpenAI(api_key=API_KEY)
+client = OpenAI(api_key="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")
 completion = client.chat.completions.create(
   model="gpt-3.5-turbo",
   messages=[
